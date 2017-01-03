@@ -13,9 +13,59 @@
  *= require_tree .
  *= require_self
  */
+.menu{
+	background-color: #16a085; 
+	padding-top:10px;
+	padding-bottom: 20px;
 
-body {
-	color:red;
-	font-size:20px; 
+-moz-box-shadow: 1px 4px 10px 2px #cfcfcf;
+-webkit-box-shadow: 1px 4px 10px 2px #cfcfcf;
+-o-box-shadow: 1px 4px 10px 2px #cfcfcf;
+box-shadow: 1px 4px 10px 2px #cfcfcf;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=165, Strength=10);
+
+}
+
+body{
+	background-color:#ecf0f1;
+	margin:0;
+}
+
+body h1 {
+	color:#ecf0f1;
+	font-size:50px; 
+	font-family: 'Calligraffitti', cursive;
+	text-align: center;	
+}
+
+.logo {
+
+	width: 100%;
+
+}
+
+#logoimg {
 	
+	width: 40px;
+	margin: 0 48%;
+}
+
+#nom{
+	padding-top: 100px;
+	font-family: 'Merienda', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+
+.box{
+	display: flex;
+	border: 3px #16a085 solid;
+	margin:30px;
+	border-radius: 30px;
+}
+
+a{
+	color:#16a085;
+	font-size: 20px;
+	padding-left: 20px;
 }
